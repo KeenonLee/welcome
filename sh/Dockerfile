@@ -1,4 +1,4 @@
-FROM docker.io/busybox
+FROM busybox
 ADD ./hello.sh ./
 EXPOSE 8080
 CMD ["./hello.sh"]
